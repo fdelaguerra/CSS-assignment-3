@@ -121,11 +121,14 @@ header {
     color: #d2f4ff; /* keep */
     background: #5598b2; /* keep */
     margin-left: 1rem;
+    text-shadow: 0 .05rem .05rem #333;
+
 }
 footer {
     grid-area: footer; /* keep */
     background: #b2988a; /* keep */
     text-align: center;
+    padding: 1rem;
 }
 
 #arial p, #georgia p, #bobwhite-quail p, #helvetica p {
@@ -137,6 +140,7 @@ footer {
 /* pseudo classes */
 a {
     color: #7c6a60; /* keep */
+    text-shadow: none;
 }
 a:hover {
     color: #f4cdb7; /* keep */
