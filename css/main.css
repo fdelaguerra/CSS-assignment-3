@@ -18,10 +18,11 @@ h1, h2 {
     font-family: "Source Sans Pro", "Franklin Gothic Medium", Futura, sans-serif;
 }
 h1 {
-    font-size:200%;
+    font-size:300%;
 }
 #tagline {
     font-style: italic;
+    font-size: 150%;
 }
 /* all images will stretch to fill their containing element */
 img {
@@ -58,7 +59,6 @@ section, #pairing {
         "bobwhite-quail bobwhite-quail line-length line-length line-length"
         "typeface typeface typeface helvetica helvetica"
         "footer footer footer footer footer";
-    border: solid 4px;
 }
 
 /* all grid items -
@@ -95,33 +95,37 @@ header {
 #bobwhite-quail {
     grid-area: bobwhite-quail; /* keep */
     background: #d2f4ff; /* keep */
-    padding: 4em;
-    padding-right: 1em;
+    padding: 4rem;
+    padding-right: 1rem;
 }
 #readability {
     grid-area: readability; /* keep */
     background: #d2f4ff; /* keep */
+    padding-left: 1rem;
+    padding-bottom: 0;
 }
 #line-length {
     grid-area: line-length; /* keep */
     background: #d2f4ff; /* keep */
+    padding-top: 1rem;
+    padding-left: 1rem;
+
 }
 #helvetica {
     grid-area: helvetica; /* keep */
     background: #fff; /* keep */
-    border: solid 4px #000;
-    margin: 3rem 3rem auto;
+    margin: 5rem 3rem auto 1rem;
 }
 #typeface {
     grid-area: typeface; /* keep */
     color: #d2f4ff; /* keep */
     background: #5598b2; /* keep */
+    margin-left: 1rem;
 }
 footer {
     grid-area: footer; /* keep */
     background: #b2988a; /* keep */
     text-align: center;
-
 }
 
 #arial p, #georgia p, #bobwhite-quail p, #helvetica p {
